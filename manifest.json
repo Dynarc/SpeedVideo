@@ -1,0 +1,18 @@
+{
+    "name": "SpeedVideo",
+    "description": "Change speed of videos",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "contextMenus"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
